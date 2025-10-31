@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design login page",
+      "description": "Create a mockup",
+      "column": "Backlog"
+    },
+    {
+      "id": 2,
+      "title": "Implement authentication",
+      "description": "Add OAuth2 support",
+      "column": "In Progress"
+    },
+    {
+      "id": 3,
+      "title": "Code cleanup",
+      "description": "Refactor to improve readability",
+      "column": "Review"
+    },
+    {
+      "id": 4,
+      "title": "Fix login bug",
+      "description": "Resolve issue with login",
+      "column": "Done"
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import Column from "./components/Column";
 import TaskModal from "./components/TaskModal";
 import { useTaskStore } from "./store/useTaskStore";
 import "bootstrap/dist/css/bootstrap.min.css";
+import DynamicList from "./components/DynamicList";
 
 function App() {
   const { filteredTasks, setSearchTerm } = useTaskStore();
@@ -49,6 +50,8 @@ function App() {
         onClose={() => setIsModalOpen(false)}
         editTask={editTask}
       />
+      <hr />
+      <DynamicList />
     </div>
   );
 }
